@@ -37,7 +37,6 @@ const Footer = () => {
             <a href="">Projects</a>
           </Link>
         </li>
-
         <li>
           <Link to="/testimonials">
             <a href="">Testimonial</a>
@@ -54,13 +53,13 @@ const Footer = () => {
         <a href="https://facebook.com">
           <FaFacebook />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://www.instagram.com/mdjamil259/">
           <FaInstagram />
         </a>
-        <a href="https://linkedin.com">
+        <a href="https://www.linkedin.com/in/mdjamilakhtar786/">
           <FaLinkedin />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com/MAkhtar10061">
           <FaTwitter />
         </a>
       </div>

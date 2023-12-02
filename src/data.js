@@ -1,40 +1,25 @@
 import IMG1 from "./assets/images/portfolio1.jpg";
 import IMG2 from "./assets/images/portfolio2.jpg";
-import IMG3 from "./assets/images/portfolio3.jpg";
-
-import Avatar1 from "./assets/images/avatar1.jpg";
-import Avatar2 from "./assets/images/avatar2.jpg";
-import Avatar3 from "./assets/images/avatar3.jpg";
+import Avatar1 from "./assets/images/avatars.png";
 
 const data = [
   {
     id: 1,
+    image: IMG2,
+    title: "Real-Estate Agency",
+    desc: "Real-Estate is to the best place to find your next perfect place to live.Real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.",
+    techstack: ["#MongoDb ", " #ExpressJs ", " #ReactJs", " #NodeJs"],
+    github: "https://github.com/mdjamilakhtar793/Rm-Real-Estate-Agency",
+    demo: "https://rm-real-estate-agency-kbyz.onrender.com/",
+  },
+  {
+    id: 2,
     image: IMG1,
     title: "E-Learning",
     desc: "Web application that enables users to search Valuable Course, view estimated Price ranges for positions, and locate available Courses based on their current Technical Skills.",
     techstack: ["#reactJs ", " #redux/Toolkits ", "#chakra ui"],
     github: "https://github.com/mdjamilakhtar793/Learning-Management-System/",
     demo: "https://learning-management-system-sigma.vercel.app/",
-  },
-
-  {
-    id: 2,
-    image: IMG2,
-    title: "Facebook-Clone",
-    desc: " A comprehensive Social Meadia platform that allows users to Allow to use and Share Contents and recommendations for popular Information.",
-    techstack: ["#Html ", " #Css ", " #JavaScript"],
-    github: "https://github.com/mdjamilakhtar793/Facebook-Clone/",
-    demo: "https://github.com/mdjamilakhtar793/Facebook-Clone/",
-  },
-
-  {
-    id: 3,
-    image: IMG3,
-    title: "Fiver-Clone",
-    desc: "A comprehensive Freelancer platform that allows users to Connect Client, and Build Products, and offers curated recommendations for Good Quality Products.",
-    techstack: ["#React ", "#React-Router-Dom ", "#Tailwind CSS"],
-    github: "https://github.com/mdjamilakhtar793/Fiver-UI-CLone",
-    demo: "https://github.com/mdjamilakhtar793/Fiver-UI-CLone",
   },
 ];
 
@@ -49,7 +34,7 @@ const testimonials = [
   },
   {
     id: 2,
-    image: Avatar2,
+    image: Avatar1,
     name: "@R-Shobhna",
     designation: "Faculty-advisor-(AVIT) ",
     review:
@@ -57,7 +42,7 @@ const testimonials = [
   },
   {
     id: 3,
-    image: Avatar3,
+    image: Avatar1,
     name: "@S-Subhapriya",
     designation: "Professor-(AVIT)",
     review:
